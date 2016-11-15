@@ -33,12 +33,21 @@
     "moment": "^2.16.0",
     "yargs-parser": "^4.0.2"
   },
-  "keywords": [
-    "generategenerator"
-  ],
   "devDependencies": {
     "gulp-format-md": "^0.1.11"
   },
+  "keywords": [
+    "counts",
+    "download",
+    "download-counts",
+    "download-stats",
+    "downloads",
+    "npm",
+    "npm-api",
+    "npm-downloads",
+    "npm-stats",
+    "stats"
+  ],
   "verb": {
     "toc": false,
     "layout": "default",
