@@ -51,7 +51,8 @@ $ downloads micromatch --format json
     "lastMonth": 7561132,
     "total": 72246952
   }
-]```
+]
+```
 
 This can be output to a json file using the `bash` `>` character:
 
