@@ -85,20 +85,22 @@ function createTable(downloads) {
     table.push(row);
   }
 
-  // empty row to separate summary
-  table.push([]);
-  table.push(['', cyan('yesterday'), cyan('last week'), cyan('last month'), cyan('total')]);
-  table.push([]);
+  if (downloads.length > 1) {
+    // empty row to separate summary
+    table.push([]);
+    table.push(['', cyan('yesterday'), cyan('last week'), cyan('last month'), cyan('total')]);
+    table.push([]);
 
-  // summary row
-  var summary = [
-    `${downloads.length} modules`,
-    formatNumber(totals.yesterday),
-    formatNumber(totals.lastWeek),
-    formatNumber(totals.lastMonth),
-    formatNumber(totals.total)
-  ];
-  table.push(summary);
+    // summary row
+    var summary = [
+      `${downloads.length} modules`,
+      formatNumber(totals.yesterday),
+      formatNumber(totals.lastWeek),
+      formatNumber(totals.lastMonth),
+      formatNumber(totals.total)
+    ];
+    table.push(summary);
+  }
 
   return table.toString();
 }
