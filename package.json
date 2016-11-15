@@ -61,7 +61,11 @@
       "reflinks": true
     },
     "related": {
-      "list": []
+      "list": [
+        "downloads",
+        "dependents-cli",
+        "npm-api"
+      ]
     },
     "reflinks": [
       "verb",

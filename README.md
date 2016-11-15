@@ -92,6 +92,12 @@ The `--format` option will also work with `--maintainer` to return a `json` arra
 
 ## About
 
+### Related projects
+
+* [dependents-cli](https://www.npmjs.com/package/dependents-cli): CLI for listing an npm module's dependent projects and their download stats. | [homepage](https://github.com/doowb/dependents-cli "CLI for listing an npm module's dependent projects and their download stats.")
+* [downloads](https://www.npmjs.com/package/downloads): Retrieve npm download stats for the specified repository or maintainer. | [homepage](https://github.com/doowb/downloads "Retrieve npm download stats for the specified repository or maintainer.")
+* [npm-api](https://www.npmjs.com/package/npm-api): Base class for retrieving data from the npm registry. | [homepage](https://github.com/doowb/npm-api "Base class for retrieving data from the npm registry.")
+
 ### Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).
