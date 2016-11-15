@@ -10,15 +10,28 @@
   },
   "license": "MIT",
   "files": [
+    "bin",
     "index.js",
-    "LICENSE"
+    "LICENSE",
+    "README.md"
   ],
   "main": "index.js",
+  "bin": {
+    "downloads": "bin/cli.js"
+  },
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
     "test": "mocha"
+  },
+  "dependencies": {
+    "ansi-cyan": "^0.1.1",
+    "cli-table": "^0.3.1",
+    "download-stats": "^0.3.2",
+    "downloads": "^0.1.0",
+    "moment": "^2.16.0",
+    "yargs-parser": "^4.0.2"
   },
   "keywords": [
     "generategenerator"
