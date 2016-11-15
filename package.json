@@ -1,7 +1,7 @@
 {
   "name": "downloads-cli",
   "description": "Commandline application for retrieving npm download counts for the specified repository or maintainer.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/doowb/downloads-cli",
   "author": "Brian Woodward (https://github.com/doowb)",
   "repository": "doowb/downloads-cli",
